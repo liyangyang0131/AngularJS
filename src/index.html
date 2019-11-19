@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AngularJS</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.bootcss.com/angular.js/1.7.0/angular.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular.js/1.7.0/angular-route.min.js"></script>
+</head>
+<body ng-app="myApp">
+    <h1>AngularJS应用</h1>
+    <p>实现热更新live-server</p>
+    <ul class="header clearfix">
+        <li><a href="#!/note">笔记本</a></li>
+        <li><a href="#!/memo">备忘录</a></li>
+    </ul>
+    <div class="main">
+        <div ng-view></div>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./route.js"></script>
+    <script src="./controllers/noteController.js"></script>
+    <script src="./controllers/memoController.js"></script>
+</body>
+</html>

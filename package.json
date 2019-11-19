@@ -1,0 +1,20 @@
+{
+  "name": "angularjs",
+  "version": "1.0.0",
+  "description": "本地运行: Angular路由只会在你为其设置的环境后才会起效。你要确保是使用的 http://localhost 或者是某种类型的环境. 否则angular会说跨域请求支持HTTP.",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=8080 --host=0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyangyang0131/AngularJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyangyang0131/AngularJS/issues"
+  },
+  "homepage": "https://github.com/liyangyang0131/AngularJS#readme"
+}
