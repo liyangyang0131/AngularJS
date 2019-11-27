@@ -44,7 +44,7 @@
         app.config(['$routeProvider',function($routeProvider){
             $routeProvider
             .when('/',{template:'首页'})
-            .otherwise({restrict:'/'})
+            .otherwise({redirectTo:'/note'});
         }])
         // $routeProvider 用来定义路由规则
         /*AngularJS 模块的 config 函数用于配置路由规则。通过使用 configAPI，我们请求把$routeProvider注入到我们的配置函数并且使用$routeProvider.whenAPI来定义我们的路由规则。
